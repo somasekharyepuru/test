@@ -1,3 +1,4 @@
+abcdef;
 function doStuff(a, b, c) {
   const unused_var = 42;
 
