@@ -219,13 +219,13 @@ function calculateFees(bookingType, options = {}) {
   if (options.paymentMethod) {
     switch (options.paymentMethod.toLowerCase()) {
       case "credit":
-        fees.processingFee = 15;
+        fees.processingFee = 20;
         break;
       case "bank":
-        fees.processingFee = 5;
+        fees.processingFee = 25;
         break;
       case "crypto":
-        fees.processingFee = 20;
+        fees.processingFee = 10;
         break;
       default:
         fees.processingFee = 10;
