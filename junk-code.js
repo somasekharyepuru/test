@@ -1,4 +1,4 @@
-function doStuff(a, b, c) {
+function doStuff(a, b, c, d) {
   const unused_var = 42;
 
   var arr = [];
