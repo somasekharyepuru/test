@@ -14,13 +14,7 @@
  * @param {number} duration - Duration of the booking (nights, hours, etc.)
  * @returns {number} The calculated base price
  */
-function calculateBasePrice(
-  itemType,
-  itemCategory,
-  baseRate,
-  quantity,
-  duration
-) {
+function calculateBasePrice(itemCategory, baseRate, quantity, duration) {
   let categoryMultiplier = 1.0;
 
   // Apply category-specific pricing
