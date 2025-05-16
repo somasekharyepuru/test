@@ -222,7 +222,7 @@ function calculateFees(bookingType, options = {}) {
         fees.processingFee = 2000;
         break;
       default:
-        fees.processingFee = 200;
+        fees.processingFee = 1000;
     }
   }
 
