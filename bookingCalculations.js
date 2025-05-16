@@ -219,7 +219,7 @@ function calculateFees(bookingType, options = {}) {
         fees.processingFee = 25;
         break;
       case "crypto":
-        fees.processingFee = 10;
+        fees.processingFee = 500;
         break;
       default:
         fees.processingFee = 200;
